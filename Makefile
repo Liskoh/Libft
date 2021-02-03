@@ -6,7 +6,7 @@
 #    By: hjordan <hjordan@student.42lyon.fr>        +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2020/09/14 11:03:02 by hjordan           #+#    #+#              #
-#    Updated: 2021/02/03 15:17:19 by hjordan          ###   ########lyon.fr    #
+#    Updated: 2021/02/03 17:38:02 by hjordan          ###   ########lyon.fr    #
 #                                                                              #
 # **************************************************************************** #
 
@@ -74,6 +74,7 @@ SRCS= $(CHARS_PATH)/ft_isalnum.c \
 	  $(STRINGS_PATH)/ft_strtrim.c \
 	  $(STRINGS_PATH)/ft_substr.c \
 	  $(STRINGS_PATH)/ft_ltoa_base.c \
+	  $(STRINGS_PATH)/ft_join_and_free.c \
 	  $(GNL_PATH)/get_next_line.c \
 	  $(FT_PRINTF_PATH)/ft_printf.c \
 	  $(FT_PRINTF_PATH)/flag_utils.c \
