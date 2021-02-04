@@ -29,7 +29,7 @@ int						ft_apply_ptr_width(
 {
 	int			width;
 	int			len;
-	int			size;
+	size_t		size;
 
 	size = (null_ptr && pf->contains_precision && pf->precision == 0 ? 2 : 3);
 	len = null_ptr ? size : ft_strlen(itoa) + 2;

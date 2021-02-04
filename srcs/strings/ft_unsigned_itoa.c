@@ -39,8 +39,6 @@ char					*ft_unsigned_itoa(unsigned int nb)
 	if (nb == 0)
 		return (ft_strdup("0"));
 	size = ft_get_size(nb);
-	nb = (nb < 0 ? -nb : nb);
-	negative = (nb < 0 ? TRUE : FALSE);
 	negative = FALSE;
 	if (!(itoa = malloc((size + 1) * sizeof(char))))
 		return (NULL);

@@ -125,9 +125,7 @@ int						ft_convert_unsigned_int(t_printf *pf, unsigned int i)
 	if (pf->contains_precision && pf->precision == 0
 		&& i == 0 && pf->precision == 0 && pf->width == 0)
 		return (TRUE);
-	negative = (i < 0 ? TRUE : FALSE);
-	if (i < 0 && (int)i != INT_MIN)
-		i = -i;
+	negative = FALSE;
 	if (!(itoa = ft_init_unsigned_itoa(i)))
 		return (FALSE);
 	if (!pf->contains_precision && pf->width != 0)

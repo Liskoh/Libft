@@ -34,12 +34,10 @@ static int			ft_try_free(char **s)
 
 static int			ft_get_state(char **current, char **line, int read_len)
 {
-	int			len;
 	int			i;
 	char		*tempo;
 
 	i = 0;
-	len = 0;
 	while ((*current)[i] && (*current)[i] != END_OF_LINE)
 		i++;
 	if ((*current)[i] == END_OF_LINE)
